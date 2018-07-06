@@ -13,16 +13,33 @@
 <body>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-WDM-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
 			<a class="navbar-brand" href="#">LUBot</a>
-		<div class="navbar-header navbar-right">
+		</div>
+
+		<div class="collapse navbar-collapse navbar-right" id="bs-WDM-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="index.html">About</a></li>
-				<li><a href="index.html">Contact</a></li>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="index.html">Nos solutions</a></li>
+				 <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Développeurs<span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">API</a></li>
+				            <li><a href="#">Documentation</a></li>
+				          </ul>
+		        </li>
+				<li><a href="index.html">Tester</a></li>
+				<li><a href="index.html">À propos</a></li>
 			</ul>
 		</div>
 	</div>
-	</nav>
+</nav>
+
 
 	<div class="container-fluid jumbotron">
 	    <h1>Hello, world!</h1>
@@ -33,6 +50,9 @@
 		<p></p>
 	</div>
 
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
