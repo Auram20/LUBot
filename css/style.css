@@ -4,8 +4,25 @@
 	background-color: #f7cf48;
 }
 
-.logo{
+.green
+{
+	height: 400px;
+	background-color: #4ab49f;
+}
+
+.logo
+{
 	padding: 0;
 	width: 120px;
 	height: auto;
+}
+
+.no-margin
+{
+	margin: 0px;
+}
+
+.no-padding
+{
+	padding: 0px;
 }
