@@ -1,12 +1,10 @@
 .yellow
 {
-	height: 400px;
 	background-color: #f7cf48;
 }
 
 .green
 {
-	height: 400px;
 	background-color: #4ab49f;
 }
 
@@ -15,6 +13,19 @@
 	padding: 0;
 	width: 120px;
 	height: auto;
+}
+
+
+.icons1
+{	
+	padding-top: 20px;
+	width: 120px;
+	height: auto;
+}
+
+.centertext
+{
+	text-align: center;
 }
 
 .no-margin
