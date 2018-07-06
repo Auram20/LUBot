@@ -3,3 +3,9 @@
 	height: 400px;
 	background-color: #f7cf48;
 }
+
+.logo{
+	padding: 0;
+	width: 120px;
+	height: auto;
+}
