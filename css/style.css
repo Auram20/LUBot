@@ -24,11 +24,23 @@
     background-size: cover;
 }
 
+.spacing
+{
+	margin-top: 40px;
+}
+
 .icons1
 {	
 	padding-top: 20px;
 	width: 120px;
 	height: auto;
+}
+
+.icons2
+{	
+	padding-top: 20px;
+	height: 400px;
+	width: auto;
 }
 
 .centertext
