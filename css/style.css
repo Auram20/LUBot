@@ -25,6 +25,13 @@
 	padding: 20px;
 }
 
+.bluelongframe
+{
+	background-color: #303843;
+	border-radius: 10px;
+	margin: auto;	
+	padding: 20px;
+}
 .yellowframe
 {
 	background-color: #f7cf48;
