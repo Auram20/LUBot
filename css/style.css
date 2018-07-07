@@ -1,3 +1,4 @@
+/*BG STYLE */
 .yellow
 {
 	background-color: #f7cf48;
@@ -13,6 +14,7 @@
 	background-color: #303843;
 }
 
+/*FRAME STYLE*/
 .blueframe
 {
 	background-color: #303843;
@@ -33,6 +35,7 @@
 	padding: 20px;
 }
 
+/* TEXT STYLE */ 
 .whitetext
 {
 	color: white;
@@ -43,6 +46,12 @@
 	color: #303843;
 }
 
+.centertext
+{
+	text-align: center;
+}
+
+/* IMAGES STYLE */
 .logo
 {
 	padding: 0;
@@ -59,12 +68,6 @@
     background-size: cover;
 }
 
-.spacing
-{
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
 .icons1
 {	
 	padding-top: 20px;
@@ -79,9 +82,18 @@
 	width: auto;
 }
 
-.centertext
+#LogoRt
 {
-	text-align: center;
+	height: 100px;
+	width: auto;
+	margin: auto;
+}
+
+/*SPACING STYLES */
+.spacing
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .no-margin
@@ -93,18 +105,6 @@
 {
 	padding: 0px;
 }
-
-#LogoRt
-{
-	height: 100px;
-	width: auto;
-	margin: auto;
-}
-
-
-
-
-
 
 /* FOOTER STYLE */
 .site-footer
