@@ -16,19 +16,21 @@
 .blueframe
 {
 	background-color: #303843;
-	width: 250px;
+	width: 300px;
 	height: auto;
 	border-radius: 10px;
-	margin: auto;
+	margin: auto;	
+	padding: 20px;
 }
 
 .yellowframe
 {
 	background-color: #f7cf48;
-	width: 250px;
+	width: 300px;
 	height: auto;
 	border-radius: 10px;
 	margin: auto;
+	padding: 20px;
 }
 
 .whitetext
