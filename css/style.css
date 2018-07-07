@@ -8,6 +8,39 @@
 	background-color: #4ab49f;
 }
 
+.blue
+{
+	background-color: #303843;
+}
+
+.blueframe
+{
+	background-color: #303843;
+	width: 250px;
+	height: auto;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.yellowframe
+{
+	background-color: #f7cf48;
+	width: 250px;
+	height: auto;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.whitetext
+{
+	color: white;
+}
+
+.bluetext
+{
+	color: #303843;
+}
+
 .logo
 {
 	padding: 0;
@@ -27,6 +60,7 @@
 .spacing
 {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .icons1
@@ -56,4 +90,11 @@
 .no-padding
 {
 	padding: 0px;
+}
+
+#LogoRt
+{
+	height: 100px;
+	width: auto;
+	margin: auto;
 }
