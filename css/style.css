@@ -68,14 +68,7 @@
 	height: auto;
 }
 
-.parallax { 
-    background-image: url("../img/header.png");
-    height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .icons1
 {	
@@ -123,6 +116,17 @@
 	padding: 0px;
 }
 
+/* HEADER STYLE */
+
+.jumbotron
+{
+	background-image: url("../img/header.png");
+	height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* FOOTER STYLE */
 .site-footer
 {
