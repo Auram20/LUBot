@@ -64,7 +64,7 @@
 .logo
 {
 	padding: 0;
-	width: 120px;
+	width: 4%;
 	height: auto;
 }
 
@@ -179,4 +179,16 @@
   border-bottom: 0.5px solid #f7cf48;
 }
 
+.navbar-nav 
+{
+	float: none;
+	text-align: center;
+}
 
+
+.navbar-nav 
+li{
+	display: inline-block;
+	float: none;
+
+}
