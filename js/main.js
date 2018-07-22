@@ -12,6 +12,11 @@ var scene1 = new ScrollMagic.Scene({
     })
 	scene1.setClassToggle('.totrigger1','zoomIn');
     scene1.addTo(controller1); // assign the scene to the controller
+   scene1.on("leave", function () {
+  		scene1.destroy( false )
+	})
+
+
 
 // TRIGGERS THE APPEARANCE OF SECOND PART
 var controller2 = new ScrollMagic.Controller();
@@ -20,6 +25,9 @@ var scene2 = new ScrollMagic.Scene({
     })
 	scene2.setClassToggle('.totrigger2','zoomIn');
     scene2.addTo(controller2); // assign the scene to the controller
+ 	scene2.on("leave", function () {
+  		scene2.destroy( false )
+	})
 
     // TRIGGERS THE APPEARANCE OF THIRS PART
 var controller3 = new ScrollMagic.Controller();
@@ -28,6 +36,9 @@ var scene3 = new ScrollMagic.Scene({
     })
 	scene3.setClassToggle('.totrigger3','zoomIn');
     scene3.addTo(controller3); // assign the scene to the controller
+    scene3.on("leave", function () {
+  		scene3.destroy( false )
+	})
 
         // TRIGGERS THE APPEARANCE OF FOURTH PART
 var controller4 = new ScrollMagic.Controller();
@@ -36,6 +47,9 @@ var scene4 = new ScrollMagic.Scene({
     })
 	scene4.setClassToggle('.totrigger4','fadeInRight');
     scene4.addTo(controller4); // assign the scene to the controller
+    scene4.on("leave", function () {
+  		scene4.destroy( false )
+	})
 
 var controller5 = new ScrollMagic.Controller();
 var scene5 = new ScrollMagic.Scene({
@@ -43,6 +57,9 @@ var scene5 = new ScrollMagic.Scene({
     })
 	scene5.setClassToggle('.totrigger5','fadeInLeft');
     scene5.addTo(controller5); // assign the scene to the controller
+    scene5.on("leave", function () {
+  		scene5.destroy( false )
+	})
 
 var controller6 = new ScrollMagic.Controller();
 var scene6 = new ScrollMagic.Scene({
@@ -50,6 +67,9 @@ var scene6 = new ScrollMagic.Scene({
     })
 	scene6.setClassToggle('.totrigger6','zoomIn');
     scene6.addTo(controller6); // assign the scene to the controller
+    scene6.on("leave", function () {
+  		scene6.destroy( false )
+	})
 
 
 var controller7 = new ScrollMagic.Controller();
@@ -58,7 +78,9 @@ var scene7 = new ScrollMagic.Scene({
     })
 	scene7.setClassToggle('.totrigger7','zoomIn');
     scene7.addTo(controller7); // assign the scene to the controller
-
+    scene7.on("leave", function () {
+  		scene7.destroy( false )
+	})
 
 
 

@@ -95,9 +95,6 @@
 
 /*TRIGGERS */
 
-.totrigger1{
-  opacity: 0  ;
-}
 
 .totrigger1.zoomIn {
   opacity: 1;
@@ -106,9 +103,6 @@
   animation-duration: 2s;
 }
 
-.totrigger2{
-  opacity: 0  ;
-}
 
 .totrigger2.zoomIn {
   opacity: 1;
@@ -117,9 +111,6 @@
   animation-duration: 2s;
 }
 
-.totrigger3{
-  opacity: 0  ;
-}
 
 .totrigger3.zoomIn {
   opacity: 1;
@@ -128,9 +119,6 @@
   animation-duration: 2s;
 }
 
-.totrigger4 {
-  opacity: 0  ;
-}
 
 .totrigger4.fadeInRight {
   opacity: 1;
@@ -139,9 +127,6 @@
   animation-duration: 2s;
 }
 
-.totrigger5 {
-  opacity: 0  ;
-}
 
 .totrigger5.fadeInLeft {
   opacity: 1;
@@ -150,9 +135,6 @@
   animation-duration: 2s;
 }
 
-.totrigger6{
-  opacity: 0  ;
-}
 
 .totrigger6.zoomIn {
   opacity: 1;
@@ -161,9 +143,6 @@
   animation-duration: 2s;
 }
 
-.totrigger7{
-  opacity: 0  ;
-}
 
 .totrigger7.zoomIn {
   opacity: 1;
@@ -222,3 +201,9 @@
 }
 
 
+
+
+.visiblestrong {
+  opacity: 1;
+   visibility: visible !important; 
+}
